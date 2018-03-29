@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.idev.verly.finalsgandroidbeginner.MainActivity">
+
+    <LinearLayout
+
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/pesto_green"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:textSize="30dp"
+                android:id="@+id/tvTimA"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TIM A"/>
+
+            <TextView
+                android:textColor="@color/pesto_green"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/tvScoreA"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"/>
+
+            <Button
+                android:textColor="#FFF"
+                android:background="@color/pesto_green_dark"
+                android:layout_marginBottom="20dp"
+                android:onClick="tambah3TimA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+3"/>
+
+            <Button
+                android:textColor="#FFF"
+                android:background="@color/pesto_green_dark"
+                android:layout_marginBottom="20dp"
+                android:onClick="tambah2TimA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+2"/>
+
+            <Button
+                android:textColor="#FFF"
+                android:background="@color/pesto_green_dark"
+                android:layout_marginBottom="20dp"
+                android:onClick="tambah1TimA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+1"/>
+
+        </LinearLayout>
+
+        <View
+            android:background="@color/pesto_green_light"
+            android:layout_width="3dp"
+            android:layout_height="match_parent">
+        </View>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/pesto_green"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:textSize="30dp"
+                android:id="@+id/tvTimB"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TIM B"/>
+
+            <TextView
+                android:textColor="@color/pesto_green"
+                android:textStyle="bold"
+                android:id="@+id/tvScoreB"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"/>
+
+            <Button
+                android:textColor="#FFF"
+                android:background="@color/pesto_green_dark"
+                android:layout_marginBottom="20dp"
+                android:onClick="tambah3TimB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+3"/>
+
+            <Button
+                android:textColor="#FFF"
+                android:background="@color/pesto_green_dark"
+                android:layout_marginBottom="20dp"
+                android:onClick="tambah2TimB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+2"/>
+
+            <Button
+                android:background="@color/pesto_green_dark"
+                android:layout_marginBottom="20dp"
+                android:onClick="tambah1TimB"
+                android:textColor="#FFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:background="@color/pesto_green_dark"
+        android:onClick="reset"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESET"/>
+
+</LinearLayout>

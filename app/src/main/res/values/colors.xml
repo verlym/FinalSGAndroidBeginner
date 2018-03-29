@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="cyan100">#B2EBF2</color>
+    <color name="cyan200">#80DEEA</color>
+    <color name="cyan300">#4DD0E1</color>
+
+    <color name="pesto_green">#00AA8D</color>
+    <color name="pesto_green_light">#00BF9A</color>
+    <color name="pesto_green_dark">#008975</color>
+</resources>
